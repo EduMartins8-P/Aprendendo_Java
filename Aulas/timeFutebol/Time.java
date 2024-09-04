@@ -8,9 +8,9 @@ public class Time {
 	}
 	
 	public void adicionarJogador(Jogador jogo) {
-		if(posicoesTaticas[jogo.posicao.getValor()] > 0) {
+		if(posicoesTaticas[jogo.getPosicao().getValor()] > 0) {
 			System.out.println("Bem vindo ao time jogador " + jogo.getNome() + " :)");
-			posicoesTaticas[jogo.posicao.getValor()] -= 1;
+			posicoesTaticas[jogo.getPosicao().getValor()] -= 1;
 		}
 		else {
 			System.out.println("Todas as vagas para a posicao estao ocupadas :(\nTenta no vasco" );

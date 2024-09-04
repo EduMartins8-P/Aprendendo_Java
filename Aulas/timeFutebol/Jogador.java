@@ -1,7 +1,7 @@
 package timeFutebol;
 
 public class Jogador {
-	PosicaoTatica posicao;
+	private PosicaoTatica posicao;
 	private String nome;
 	
 	public Jogador(String nome, PosicaoTatica posicao) {

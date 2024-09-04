@@ -1,7 +1,14 @@
 package timeFutebol;
 
 public class Time {
-	public int posicoesTaticas[];
+	
+	public int[] posicoesTaticas;
+	private int nJogadores;
+	
+	public Time(int nJogadores) {
+		this.nJogadores = nJogadores;
+		posicoesTaticas = new int[nJogadores];
+	}
 	
 	public void defineQntPosicoes(int n, PosicaoTatica posTat) {
 		posicoesTaticas[posTat.getValor()] = n;

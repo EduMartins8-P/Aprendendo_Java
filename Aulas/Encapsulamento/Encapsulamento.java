@@ -13,6 +13,9 @@ public class Encapsulamento {
 	private Sexo sexo;
 	private EstadoCivil estadoCivil;
 	
+	//infelizmente todos os getters e setters aqui
+	//foram feitos a mão
+	
 	public String getNome() {
 		return nome;
 	}

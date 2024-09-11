@@ -23,6 +23,13 @@ public class Item {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	public void aumentarQuantidade(){
+		quantidade++;
+	}
+	public void aumentarMaisQuantidade(){
+		quantidade++;
+		quantidade++;
+	}
 	
 	
 }
